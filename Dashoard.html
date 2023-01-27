@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/Dashord.css" />
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+
+<body>
+    <div class="container main">
+
+        <div class="row header">
+            <div class="col-2">
+                <img class="menuBar" src="./images/menu-bar.svg" />
+                <img class="logo" src="./images/logo.svg" />
+            </div>
+
+            <div class="col-8 search">
+                <img id="search" src="./images/search-icon.svg" />
+                <span class="searchtext">Search</span>
+            </div>
+
+            <div class="col-2">
+                <img class="notification" src="./images/notification-icon.svg" />
+                <img class="profile" src="./images/profile.png" /> John Doe
+                <img class="downArrow" src="./images/downward-arrow.svg" />
+            </div>
+        </div>
+
+
+        <div class="row mainContent">
+
+            <div class="col-lg-2 nav">
+
+                <div class="dashboardContainer">
+                    <img id="dashboard" src="./images/dashboard-active.svg" />
+                    <b id="active">Dashboard</b>
+                </div>
+
+                <div class="anaContainer">
+                    <img id="analysis" src="./images/graph-default.svg" />
+                    <b>Analysis</b>
+                </div>
+
+                <div class="indContainer">
+                    <img id="index" src="./images/inbox-default.svg" alt="" />
+                    <b>Inbox</b>
+                </div>
+
+                <div class="hisContainer">
+                    <img id="history" src="./images/clock-default.svg" alt="" />
+                    <b>History</b>
+                </div>
+
+                <div class="userContainer">
+                    <img id="user" src="./images/user-default.svg" alt="" />
+                    <b>Users</b>
+                </div>
+
+                <div class="maintainContainer">
+                    <img id="maintanance" src="./images/maintenance-default.svg" alt="" />
+                    <b>Maintenance</b>
+                </div>
+
+                <div class="settingsContainer">
+                    <img id="settings" src="./images/setting-default.svg" alt="" />
+                    <b>Setting</b>
+                </div>
+
+
+            </div>
+
+
+            <div class="col-10 cont">
+
+                <div class="row">
+                    <p id="db">Dashboard</p>
+                </div>
+
+                <div class="row">
+                    <div class="col squre">
+                        <img src="./images/star.svg" alt="" id="dashboardImg" />
+                        <p id="headd">23,456<br /> <span id="subheadd">New Products</span></p>
+
+                    </div>
+
+                    <div class="col squre">
+                        <img src="./images/new-product.svg" alt="" id="dashboardImg" />
+                        <p id="headd">2345<br /> <span id="subheadd">Total Products</span></p>
+                    </div>
+
+                    <div class="col squre">
+                        <img src="./images/total-product.svg" alt="" id="dashboardImg" />
+                        <p id="headd">32,456<br /> <span id="subheadd">Today's Product</span></p>
+                    </div>
+
+                    <div class="col squre">
+                        <img src="./images/dollar-filled.svg" alt="" id="dashboardImg" />
+                        <p id="headd">5678<br /> <span id="subheadd">Today's Sale</span></p>
+                    </div>
+
+                    <div class="col squre">
+                        <img src="./images/money-bag.svg" alt="" id="dashboardImg" />
+                        <p id="headd">33,5342<br /> <span id="subheadd">Total Sale</span></p>
+                    </div>
+
+                </div>
+
+                <div class="graph1">
+                    <div class="sale">Sale</div>
+                    <img src="images/data-graph.png" alt="Graph" class="Graph">
+                    <div class="week-month">Weekly &nbsp; &nbsp; &nbsp; Monthly</div>
+                    <div class="year">Yearly</div>
+                    <div class="u"></div>
+                </div>
+                <div class="graph2">
+                    <img src="images/pie-chart.svg" alt="Pie Chart" class="piechart">
+                    <div class="sales-cntry">Sales By Country</div>
+                    <div class="dot1"></div>
+                    <div class="country1">United States of America</div>
+                    <div class="dot2"></div>
+                    <div class="country2">Russia</div>
+                    <div class="dot3"></div>
+                    <div class="country3">Canada</div>
+                    <div class="dot4"></div>
+                    <div class="country4">India</div>
+
+                </div>
+                <div class="ttable">
+
+                    <table class="table">
+
+                        <div class="table-title">Invoices</div>
+                        <div class="viewAll">View All</div>
+                        <br>
+
+                        <thead>
+                            <tr>
+                                <th scope="col">INVOICE</th>
+                                <th scope="col">COMPANY NAME</th>
+                                <th scope="col">EMAIL</th>
+                                <th scope="col">DUE DATE</th>
+                                <th scope="col">STATUS</th>
+                                <th scope="col">AMOUNT</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">651535</th>
+                                <td>Public Adgusting Film</td>
+                                <td>georgia.young@example.com</td>
+                                <td>24 May,2020</td>
+                                <td style="
+                                color: #3CDD5F ;background: #EBFFEF 0% 0% no-repeat padding-box;">Paid</td>
+                                <td>$47,800</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">651535</th>
+                                <td>Public Adgusting Film</td>
+                                <td>georgia.young@example.com</td>
+                                <td>24 May,2020</td>
+                                <td style="
+                                color: #3CDD5F ;background: #EBFFEF 0% 0% no-repeat padding-box;">Paid</td>
+                                <td>$47,800</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">651535</th>
+                                <td>Public Adgusting Film</td>
+                                <td>georgia.young@example.com</td>
+                                <td>24 May,2020</td>
+                                <td style="
+                                color: #FF4545 ;background: #EBFFEF 0% 0% no-repeat padding-box;">Fail</td>
+                                <td>$47,800</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">651535</th>
+                                <td>Public Adgusting Film</td>
+                                <td>georgia.young@example.com</td>
+                                <td>24 May,2020</td>
+                                <td style="
+                                color: #3CDD5F ;background: #EBFFEF 0% 0% no-repeat padding-box;">Paid</td>
+                                <td>$47,800</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">651535</th>
+                                <td>Public Adgusting Film</td>
+                                <td>georgia.young@example.com</td>
+                                <td>24 May,2020</td>
+                                <td style="
+                                color: #3CDD5F ;background: #EBFFEF 0% 0% no-repeat padding-box;">Paid</td>
+                                <td>$47,800</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
