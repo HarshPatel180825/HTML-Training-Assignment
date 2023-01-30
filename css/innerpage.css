@@ -279,9 +279,10 @@ b {
     margin-right: 15px;
 }
 
-.nav {
-    top: 80px;
-    left: 0px;
+.navbar {
+    display: flex;
+    top: -14px;
+    left: -13px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -293,4 +294,290 @@ b {
     width: 1218px;
     height: 1749px;
     background: #FFFFFF 0% 0% no-repeat padding-box
+}
+
+#onecolumn {
+    margin-top: 22.52px;
+    margin-left: 29px;
+    color: #3E3E3E;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.form-group {
+    padding: 14.5px 30px 0px 30px;
+}
+
+.form-group-2 {
+    padding: 0px 30px 0px 30px;
+}
+
+.form-group-3 {
+    padding: 20px 30px 0px 30px;
+}
+
+#twocolumn {
+    margin-top: 44px;
+    margin-left: 29px;
+    color: #3E3E3E;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.row {
+    padding: 15.98px 30.5px 0px 30.5px;
+}
+
+select:invalid {
+    color: #ADADAD;
+}
+
+#threecolumn {
+    margin-top: 44px;
+    margin-left: 29px;
+    color: #3E3E3E;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#iuser {
+    border: 1px dashed #ADADAD;
+}
+
+#fourcolumn {
+    margin-top: 44px;
+    margin-left: 29px;
+    color: #3E3E3E;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#uiborder {
+    border: 1px solid #FF3B3B;
+}
+
+#uidesign {
+    color: #FF3B3B;
+}
+
+#otherdesign {
+    margin-top: 44px;
+    margin-left: 29px;
+    color: #3E3E3E;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#fileupload {
+    margin-top: 21.13px;
+    margin-left: 29px;
+    color: #3E3E3E;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#radio {
+    margin-top: 36.15px;
+    margin-left: 29px;
+    color: #3E3E3E;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#checkbox {
+    margin-top: 36.15px;
+    margin-left: 29px;
+    color: #3E3E3E;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#snackbar {
+    margin-top: 36.15px;
+    margin-left: 29px;
+    color: #3E3E3E;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#call-to-action {
+    margin-top: 36.15px;
+    margin-left: 29px;
+    color: #3E3E3E;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-danger {
+    border-radius: 23px;
+    margin-left: 28px;
+    position: relative;
+    margin-top: 12px;
+}
+
+.form-check-inline {
+    margin-left: 28px;
+    position: relative;
+    margin-top: 12px;
+}
+
+#Tabs {
+    margin-top: 36.15px;
+    margin-left: 29px;
+    color: #3E3E3E;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-pills .nav-link.active {
+    color: #C8242F;
+    background-color: #FFFFFF;
+    /* background-color: #0d6efd; */
+}
+
+.nav-link {
+    color: #ADADAD;
+}
+
+.navn {
+    margin-left: 23px;
+}
+
+.tab-content>.active {
+    margin-left: 23px;
+}
+
+
+/* radio css */
+
+.form-check-input:checked {
+    background-color: #C8242F;
+    border-color: #C8242F;
+}
+
+
+/* upload button css */
+
+
+/* .btn-danger {
+    background-color: white;
+    border-color: white;
+    color: #ADADAD;
+} */
+
+input#file-upload-button {
+    background: #C8242F;
+}
+
+
+/* snack bar */
+
+.snackbar {
+    column-gap: 2rem;
+    margin-bottom: 20px;
+}
+
+.snackbar img {
+    width: 6%;
+    margin-right: 5px;
+}
+
+.error-snack {
+    border: 1px solid #C8242F;
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+}
+
+.error-snack p {
+    color: #FF3535;
+    vertical-align: middle;
+    margin-top: 19px;
+    margin-left: 2px;
+}
+
+.info-snack {
+    border: 1px solid #00B9E1;
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+}
+
+.info-snack p {
+    color: #00B9E1;
+    vertical-align: middle;
+    margin-top: 19px;
+    margin-left: 2px;
+}
+
+.warning-snack {
+    border: 1px solid #FFA800;
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+}
+
+.warning-snack p {
+    color: #FFA800;
+    vertical-align: middle;
+    margin-top: 19px;
+    margin-left: 2px;
+}
+
+.success-snack {
+    border: 1px solid #00AF27;
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+}
+
+.success-snack p {
+    color: #00AF27;
+    vertical-align: middle;
+    margin-top: 19px;
+    margin-left: 2px;
+}
+
+
+/* upload-button css */
+
+.upload-btn {
+    display: inline;
+    width: 128px;
+    height: 42px;
+    border: 1px solid #C8242F;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-left: 26px;
+    margin-top: 12px;
+}
+
+.upload-btn img {
+    margin-right: 9px;
+}
+
+.uploadd {
+    display: flex;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 1rem;
+    margin-left: 8px;
+}
+
+.btn-danger {
+    background-color: #C8242F;
+    border-color: white;
+    color: white;
+}
+
+
+/* media query */
+
+@media screen and (max-width:600px) {
+    .navbar {
+        flex-direction: column;
+    }
 }
