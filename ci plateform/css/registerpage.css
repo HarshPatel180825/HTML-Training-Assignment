@@ -54,16 +54,6 @@ body {
     color: #414141;
 }
 
-.loginform {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-.form1 {
-    margin-top: 50%;
-}
-
 @media screen and (max-width:991px) {
     .loginform {
         padding-top: 50px;
@@ -89,12 +79,6 @@ body {
     }
 }
 
-@media screen and (max-width:992px) {
-    .form1 {
-        margin-top: 0%;
-    }
-}
-
 .input-field {
     display: flex;
     flex-direction: column;
@@ -109,17 +93,4 @@ body {
 .d-block {
     height: 100%;
     object-fit: cover;
-}
-
-
-/* .privacy{
-    space
-} */
-
-.anchorlink a {
-    color: #414141
-}
-
-a:link {
-    text-decoration: none;
 }

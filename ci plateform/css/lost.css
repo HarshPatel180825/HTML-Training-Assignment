@@ -1,4 +1,4 @@
-body {
+/* body {
     color: #414141;
     font-style: NotoSans-Light;
 }
@@ -13,6 +13,9 @@ body {
     color: #414141;
     opacity: 1;
 }
+
+
+
 
 .img-heading {
     text-align: left;
@@ -84,3 +87,8 @@ h3 {
     position: relative;
     padding: 0 10px 0 10px;
 }
+
+.d-block {
+    height: 100%;
+    object-fit: cover;
+} */
